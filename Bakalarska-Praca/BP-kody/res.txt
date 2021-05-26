@@ -1,0 +1,17 @@
+
+path: C:/Users/ccc7c/PycharmProjects/detect/trainImage/s1.jpg
+shift:  14.56 
+defl_percentage: NF
+
+path: C:/Users/ccc7c/PycharmProjects/detect/trainImage/s1.jpg
+shift:  14.56 
+defl_percentage:  7.4938404894388615
+IAR:  50.2 : 49.8
+DAR:  57.7 : 42.3
+
+path: C:/Users/ccc7c/PycharmProjects/detect/trainImage/try1.png
+shift:  16.76 mm
+defl_percentage:  4.96 %
+IAR:  50.6 : 49.4
+DAR:  45.7 : 54.3
+

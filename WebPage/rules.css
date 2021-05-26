@@ -1,0 +1,97 @@
+
+.col-sm-3 button{
+    margin-left: auto;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+
+.transbox {
+    position: absolute;
+    margin: 30px;
+    top: 80px;
+    left: 20px;
+    background-color: rgb(238, 44, 89, 0.4);
+    border: 3px red;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+}
+
+.transbox p{
+    margin: 5%;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.transbox2 {
+    position: absolute;
+    margin: 30px;
+    top: 160px;
+    left: 500px;
+    background-color: rgb(238, 44, 89, 0.4);
+    border: 3px red;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+}
+
+.transbox2 p{
+    margin: 5%;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.transbox3 {
+    position: absolute;
+    margin: 30px;
+    top: 240px;
+    left: 980px;
+    background-color: rgb(238, 44, 89, 0.4);
+    border: 3px red;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+}
+
+.transbox3 p{
+    margin: 5%;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.col-sm-2 button {
+    background-color: #555555;
+    float: left;
+    color: white;
+    padding: 16px 38px;
+    border: 10px black;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color: #bfbdbd;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: #b3aaaa;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height: auto;}
+}

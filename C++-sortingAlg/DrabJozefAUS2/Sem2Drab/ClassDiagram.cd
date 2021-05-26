@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CSV_loader">
+    <Position X="27.75" Y="4" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAgABAAAAAgACAwAIAAAAAAA=</HashCode>
+      <FileName>CSV_loading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kraj" Collapsed="true">
+    <Position X="25.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kraj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obec" Collapsed="true">
+    <Position X="22.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>Obec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Okres" Collapsed="true">
+    <Position X="21.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Okres.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stat" Collapsed="true">
+    <Position X="23.75" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQAAAIAAAAgACAEAABAABAIIABIAAwA=</HashCode>
+      <FileName>Stat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UzemnaJednotka" Collapsed="true">
+    <Position X="26.5" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAEBAAAQAAIIBAAAAAHACAEQEYAQAAAAAAAkAAQAA=</HashCode>
+      <FileName>UzemnaJedn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium&lt;K, T&gt;">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Kriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_celkovaVymera">
+    <Position X="9" Y="1" Width="2.25" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11.5" Y="3.274" />
+        <Point X="10" Y="3.274" />
+        <Point X="10" Y="2.425" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_celkovaVymera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_pocet_obyv">
+    <Position X="8.25" Y="4.75" Width="2" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="3.867" />
+        <Point X="12.5" Y="4.392" />
+        <Point X="9.25" Y="4.392" />
+        <Point X="9.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAADAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_pocet_obyv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_popro">
+    <Position X="12.75" Y="4.75" Width="1.75" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="3.867" />
+        <Point X="12.5" Y="4.371" />
+        <Point X="13.625" Y="4.371" />
+        <Point X="13.625" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_popro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_predpro">
+    <Position X="16.25" Y="1" Width="1.75" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="2.25" />
+        <Point X="12.5" Y="4.359" />
+        <Point X="17.125" Y="4.359" />
+        <Point X="17.125" Y="2.425" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_predpro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_pro">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_pro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_uj_nazov">
+    <Position X="16.5" Y="4.75" Width="2" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="3.867" />
+        <Point X="12.5" Y="4.359" />
+        <Point X="17.583" Y="4.359" />
+        <Point X="17.583" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium_uj_nazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_uj_prislusnost">
+    <Position X="6.25" Y="1" Width="2.25" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="11.5" Y="3.25" />
+        <Point X="10.51" Y="3.25" />
+        <Point X="10.51" Y="3.299" />
+        <Point X="9.49" Y="3.299" />
+        <Point X="9.49" Y="2.778" />
+        <Point X="8.5" Y="2.778" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACACAAAACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>kriterium_uj_prislusnost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_uj_typ">
+    <Position X="6" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium_uj_typ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_zastavanost">
+    <Position X="10.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_zastavanost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_zastavPlocha">
+    <Position X="14" Y="1" Width="2" />
+    <InheritanceLine Type="Kriterium_uzemnej_j&lt;T&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="2.25" />
+        <Point X="12.5" Y="4.391" />
+        <Point X="15" Y="4.391" />
+        <Point X="15" Y="2.425" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium_zastavPlocha.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium_uzemnej_j&lt;T&gt;">
+    <Position X="11.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>krit_uzemna_jednotka.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uroven1">
+    <Position X="27.75" Y="1.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAACAAAAAAoEAAQAAAAAAAAAA=</HashCode>
+      <FileName>uroven1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="uroven2" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAACAAAAAAAEAQAAAEQAAAAAA=</HashCode>
+      <FileName>uroven2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter&lt;K, T&gt;" Collapsed="true">
+    <Position X="23.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAgAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filter_hodnota&lt;K, T&gt;" Collapsed="true">
+    <Position X="21.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAgAAAAAAAAAAAAIAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>filter_hodnota.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filter_interval&lt;K, T&gt;" Collapsed="true">
+    <Position X="26" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAgAAAAAAAAAAAAAAAAAAAAAABEBAAAAAAAAEA=</HashCode>
+      <FileName>filter_interval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filter_obyvatelia" Collapsed="true">
+    <Position X="24.5" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_obyvatelia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filter_uj_nazov" Collapsed="true">
+    <Position X="21.25" Y="14.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_uj_nazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filter_zastavanost" Collapsed="true">
+    <Position X="27.5" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>filter_zastavanost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Array&lt;T&gt;" Collapsed="true">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAIAAAQhAAAEAAAJAAAAgEIAAAAA=</HashCode>
+      <FileName>array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::DSRoutines" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAACAAABEAAAAAAAAAACAAAQAAAAAAAAI=</HashCode>
+      <FileName>ds_routines.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::SequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="6" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAIBAAAAEAYABAAACAAEAAAEAAAAkEBAAAAA=</HashCode>
+      <FileName>sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::SortedSequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="7.5" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAAAAAAAAAACQAAAAAEAAAAAA=</HashCode>
+      <FileName>sorted_sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::DataItem&lt;T&gt;">
+    <Position X="15.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>Structure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Structure" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAIAAAAAEAAAAAAAAAAAgEAAAQAA=</HashCode>
+      <FileName>Structure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::StructureIterator&lt;T&gt;" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAQAAIAQAAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Iterator&lt;T&gt;" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAQAAAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Iterable&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAQAAAAAQAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::TableItem&lt;K, T&gt;">
+    <Position X="15.5" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="structures::DataItem&lt;T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="16" Y="9.19" />
+        <Point X="16" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Table&lt;K, T&gt;" Collapsed="true">
+    <Position X="2" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAABAAAAEAYAAQAACAAEAAAEAAAAgEAAAAAA=</HashCode>
+      <FileName>table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::UnsortedSequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="4" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAEIAAAAA=</HashCode>
+      <FileName>unsorted_sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Vector" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAIAIAQBAAAEAAAIAAEBgEAAAAAA=</HashCode>
+      <FileName>vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::QuickSort&lt;K, T&gt;">
+    <Position X="13" Y="10.25" Width="1.75" />
+    <InheritanceLine Type="structures::Sort&lt;K, T&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="14" Y="9.767" />
+        <Point X="14" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>quick_sort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::SortNotifier" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAgQgAAAAA=</HashCode>
+      <FileName>sort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Sort&lt;K, T&gt;">
+    <Position X="13" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAEAAQAAAAEAAAAAAAAAEIQAAAAAA=</HashCode>
+      <FileName>sort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="structures::byte" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ds_structure_types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="structures::StructureADT" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAAAACAAAAAAAAAAMIAAQAAAACAAAAEAAEAA=</HashCode>
+      <FileName>ds_structure_types.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="structures::StructureADS" Collapsed="true">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBUAGAIAAAGAAFAAQ2AAAAQIQAAAAGACAAgIQCACAQ=</HashCode>
+      <FileName>ds_structure_types.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Typ_uj::Typ_uz_jedn" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAoAAAAAAAAAQAAA=</HashCode>
+      <FileName>Typ_UJ.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
